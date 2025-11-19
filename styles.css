@@ -1,0 +1,41 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.title {
+	width: 70%;
+	margin: auto;
+}
+
+.title p {
+	font-size: 90px;
+}
+
+.welcomeimage {
+	width: 40%;
+	margin: auto;
+}
+
+.links {
+	margin-left: 700px;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.spinnin {
+	width: 40%;
+	margin: auto;
+	animation-name: spinningCrazy;
+	 animation-duration: 2s;
+	 animation-iteration-count: infinite;
+}
+
+@keyframes spinningCrazy {
+	from {rotate: 0deg;}
+	to {rotate: 360deg;}
+}
+
+.ardalogo {
+	width: 50%;
+	margin: auto;
+}
